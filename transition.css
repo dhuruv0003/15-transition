@@ -1,0 +1,92 @@
+.container{
+    height: 800px;
+    width: 700px;
+    background-color: green;
+    border: 2px solid red;
+    box-shadow: 2px 2px 6px black;
+    
+}
+.box{
+    margin: 20px;
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    transition: transform 0.5s cubic-bezier(0.7,-0.34, 0.46, 1.33);
+}
+.box:hover{
+    background-color: blue;
+    transform: scale(1.5) translateX(10px) rotate(80deg) ;
+}
+
+#box1{
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    transition: transform 2s ease-in;
+}
+#box1:hover{
+    transform: rotate(180deg) ;
+}
+#box2{
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    transition: 2s ease-in;
+}
+#box2:hover{
+    background-color: blue;
+    transform: scale(1.5) translateX(60px) rotate(180deg) ;
+}
+#box3{
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    transition: background-color 2s ease-in;
+}
+#box3:hover{
+    transform: rotate(180deg) ;
+}
+#box4{
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    transition: transform 2s ease-in;
+}
+#box4:hover{
+    background-color: pink;
+}
+#box5{
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    transition: transform 2s ease-in;
+}
+#box5:hover{
+    transform: rotate(360deg) ;
+}
+#box6{
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    transition: transform 2s ease-in;
+}
+#box6:hover{
+    transform: rotate(180deg) ;
+}
+#box7{
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    transition: transform 2s ease-in;
+}
+#box7:hover{
+    transform: translateX(30deg);
+}
